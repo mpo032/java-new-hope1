@@ -8,7 +8,7 @@ import java.util.List;
 public class Course {
     private CourseName name;
     private int lessonsCount;
-    private List <Student> students = new ArrayList<>();
+    private List<Student> students = new ArrayList<>();
 
     public Course(CourseName name, int lessonsCount) {
         this.name = name;
@@ -27,7 +27,7 @@ public class Course {
         return students;
     }
 
-    public void addStudent(Student student){
+    public void addStudent(Student student) {
         students.add(student);
     }
 }
